@@ -1,4 +1,4 @@
-
+/*
 class Personas {
 
     constructor(nombre, numSocio) {
@@ -30,6 +30,7 @@ class Personas {
         }
     
 }
+*/
 
 /*
 const crearPersona = () => {
@@ -43,8 +44,10 @@ const crearPersona = () => {
 crearPersona()
 */
 
+/*
 let nombre = prompt ("Ingrese su nombre")
 let numSocio = prompt (`Hola ${nombre}. Ingresá su numero de socio`)
 
 let socio = new Personas (nombre, numSocio)
 socio.elegirActividad()
+*/
