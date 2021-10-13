@@ -1,12 +1,42 @@
-/*
+
 class Personas {
-
-    constructor(nombre, numSocio) {
-        this.nombre = nombre
-        this.numSocio = numSocio
+    constructor({nombre, numSocio}) {
+        this.nombre = nombre;
+        this.numSocio = numSocio;
     }
+}
 
-    elegirActividad(numSocio) {
+const crearPersona = () => {
+
+    const persona = new Personas ({
+            nombre: document.getElementById("nombre").value,
+            numSocio: document.getElementById("numeroSocio").value,
+        })
+    return persona
+}
+
+ /*
+const crearPersona = () => {
+    let nombre = prompt ("Ingrese su nombre")
+    let numSocio = prompt ("ingrese su número de socio")
+    alert (`Bienvenido ${nombre}, socio número ${numSocio}`)
+
+    let socio = new Personas (nombre, numSocio)
+    return socio
+}
+crearPersona()
+*/
+
+/*
+let nombre = prompt ("Ingrese su nombre")
+let numSocio = prompt (`Hola ${nombre}. Ingresá su numero de socio`)
+
+let socio = new Personas (nombre, numSocio)
+socio.elegirActividad()
+*/
+
+/*
+elegirActividad(numSocio) {
         let act = prompt("Que querés realizar hoy? Zumba, funcional, gap, crossfit, musculación o kinesiología?");
             if (this.numSocio > 10000 && this.numSocio <= 20000) {
                 if (act === "musculación" || act === "musculacion" || act === "kinesiologia" || act === "kinesiología") {
@@ -28,26 +58,10 @@ class Personas {
                 alert ("No sos socio actualmente. Deseas convertirte en uno?");
             }
         }
-    
-}
 */
 
 /*
-const crearPersona = () => {
-    let nombre = prompt ("Ingrese su nombre")
-    let numSocio = prompt ("ingrese su número de socio")
-    alert (`Bienvenido ${nombre}, socio número ${numSocio}`)
-
-    let socio = new Personas (nombre, numSocio)
-    return socio
-}
-crearPersona()
-*/
-
-/*
-let nombre = prompt ("Ingrese su nombre")
-let numSocio = prompt (`Hola ${nombre}. Ingresá su numero de socio`)
-
-let socio = new Personas (nombre, numSocio)
-socio.elegirActividad()
+document.getElementsByTagName("button").addEventListener("click", () => {
+    crearPersona()
+})
 */

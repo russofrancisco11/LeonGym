@@ -10,7 +10,7 @@
     " body body body body"
     "footer footer footer footer";
     grid-template-rows: 15vh auto 15vh;
-    grid-template-columns: 10vw 44.5vw 44.5vw 10vw;
+    grid-template-columns: 10vw 40vw 40vw 10vw;
 }
 
 .encabezado {
@@ -57,6 +57,10 @@
 
 .body {
     grid-area: body;
+}
+
+main{
+    margin: 5px;
 }
 
 .footer {
