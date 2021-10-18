@@ -16,13 +16,17 @@ const crearSocio = () => {
         })
     const nuevaLista = JSON.parse(localStorage.getItem("socios"))
 
-    nuevaLista.push(socio)
-
-    localStorage.setItem("socios", JSON.stringify(nuevaLista))
 }
 
 let boton = document.getElementsByTagName("button")
 boton.onclick = () => {crearSocio()}
+
+/*
+
+    nuevaLista.push(socio)
+
+    localStorage.setItem("socios", JSON.stringify(nuevaLista))
+*/
 
 /*
 elegirActividad(numSocio) {
