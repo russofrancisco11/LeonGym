@@ -6,34 +6,23 @@ class Personas {
     }
 }
 
-const crearPersona = () => {
+const listaDeSocios = []
 
-    const persona = new Personas ({
+const crearSocio = () => {
+
+    const socio = new Personas ({
             nombre: document.getElementById("nombre").value,
             numSocio: document.getElementById("numeroSocio").value,
         })
-    return persona
+    const nuevaLista = JSON.parse(localStorage.getItem("socios"))
+
+    nuevaLista.push(socio)
+
+    localStorage.setItem("socios", JSON.stringify(nuevaLista))
 }
 
- /*
-const crearPersona = () => {
-    let nombre = prompt ("Ingrese su nombre")
-    let numSocio = prompt ("ingrese su número de socio")
-    alert (`Bienvenido ${nombre}, socio número ${numSocio}`)
-
-    let socio = new Personas (nombre, numSocio)
-    return socio
-}
-crearPersona()
-*/
-
-/*
-let nombre = prompt ("Ingrese su nombre")
-let numSocio = prompt (`Hola ${nombre}. Ingresá su numero de socio`)
-
-let socio = new Personas (nombre, numSocio)
-socio.elegirActividad()
-*/
+let boton = document.getElementsByTagName("button")
+boton.onclick = () => {crearSocio()}
 
 /*
 elegirActividad(numSocio) {
@@ -60,8 +49,3 @@ elegirActividad(numSocio) {
         }
 */
 
-/*
-document.getElementsByTagName("button").addEventListener("click", () => {
-    crearPersona()
-})
-*/
