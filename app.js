@@ -14,7 +14,7 @@ const crearSocio = () => {
             nombre: document.getElementById("nombre").value,
             numSocio: document.getElementById("numeroSocio").value,
         })
-    const nuevaLista = JSON.parse(localStorage.getItem("socios"))
+    return socio
 
 }
 
@@ -22,6 +22,7 @@ let boton = document.getElementsByTagName("button")
 boton.onclick = () => {crearSocio()}
 
 /*
+const nuevaLista = JSON.parse(localStorage.getItem("socios"))
 
     nuevaLista.push(socio)
 
