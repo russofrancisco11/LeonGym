@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grilla{
+    display: grid;
+    grid-template-areas: 
+    "encabezado encabezado encabezado encabezado"
+    " . imagen imagen . "
+    " . textoSpinning textoSpinning . "
+    " . spinning1 spinning2 . "
+    " . textoFuncional textoFuncional . "
+    " . funcional1 funcional2 . "
+    " . textoEspera fotoGrupos . "
+    "footer footer footer footer";
+    grid-template-rows: 15vh auto auto auto auto auto auto 20vh;
+    grid-template-columns: 10vw 39.4vw 39.3vw 10vw;
+}
+
+.encabezado {
+    grid-area: encabezado;
+    background-color: rgb(1, 43, 1);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.encabezado p {
+    display: flex;
+    margin: 15px;
+    font-size: 20px;
+    color: greenyellow;
+    width: 30vw;
+}
+
+.encabezado nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 60vw;
+}
+
+.encabezado nav ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.encabezado nav ul li {
+    margin: 15px;
+    font-size: 20px;
+    color: greenyellow;
+}
+
+.encabezado nav ul li a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.imagen{
+    grid-area: imagen;
+}
+
+.textoSpinning{
+    grid-area: textoSpinning;
+    color: rgb(1, 43, 1);
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.spinning1{
+    grid-area: spinning1;
+    margin: 5px;
+    background-color: rgb(1, 43, 1);
+    border: solid 3px;
+    border-color: greenyellow;
+}
+
+.spinning1 h4{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.spinningl1 p{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.spinning2{
+    grid-area: spinning2;
+    margin: 5px;
+    background-color: rgb(1, 43, 1);
+    border: solid 3px;
+    border-color: greenyellow;
+}
+
+.spinning2 h4{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.spinning2 p{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.textoFuncional{
+    grid-area: textoFuncional;
+    color: rgb(1, 43, 1);
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.funcional1{
+    grid-area: funcional1;
+    margin: 5px;
+    background-color: rgb(1, 43, 1);
+    border: solid 3px;
+    border-color: greenyellow;
+}
+
+.funcional1 h4{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.funcional1 p{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.funcional2{
+    grid-area: funcional2;
+    margin: 5px;
+    background-color: rgb(1, 43, 1);
+    border: solid 3px;
+    border-color: greenyellow;
+}
+
+.funcional2 h4{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.funcional2 p{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.textoEspera{
+    grid-area: textoEspera;
+    color: rgb(1, 43, 1);
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.fotoGrupos{
+    grid-area: fotogrupos;
+    margin: 5px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(1, 43, 1);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.footer p{
+    font-size: 20px;
+    color: greenyellow;
+    align-self: center;
+}
+
+.footer ul{
+    margin: 15px;
+    font-size: 20px;
+    color: greenyellow;
+}
+
+.footer ul li{
+    font-size: 18px;
+    margin: 5px;
+    color: greenyellow;
+}
+
+.footer ul li a {
+    color: greenyellow;
+    text-decoration: none;
+}

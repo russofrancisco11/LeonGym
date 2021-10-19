@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grilla{
+    display: grid;
+    grid-template-areas: 
+    "encabezado encabezado encabezado encabezado"
+    " . imagen imagen . "
+    " . titulo titulo . "
+    " . motivacion motivacion . "
+    " . funcional spinning . "
+    " . preguntaLugar lugar . "
+    " . descripcionLugar lugar . "
+    " . textoClases textoClases . "
+    " . fotoClases fotoClases . "
+    "footer footer footer footer";
+    grid-template-rows: 15vh 90vh auto auto auto auto auto auto auto 20vh;
+    grid-template-columns: 10vw 39.4vw 39.3vw 10vw;
+}
+
+.encabezado {
+    grid-area: encabezado;
+    background-color: rgb(1, 43, 1);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.encabezado p {
+    display: flex;
+    margin: 15px;
+    font-size: 20px;
+    color: greenyellow;
+    width: 30vw;
+}
+
+.encabezado nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 60vw;
+}
+
+.encabezado nav ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.encabezado nav ul li {
+    margin: 15px;
+    font-size: 20px;
+    color: greenyellow;
+}
+
+.encabezado nav ul li a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.imagen{
+    grid-area: imagen;
+}
+
+.titulo{
+    grid-area: titulo;
+    color: rgb(1, 43, 1);
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.motivacion{
+    grid-area: motivacion;
+    color: rgb(1, 43, 1);
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.funcional{
+    grid-area: funcional;
+    margin: 5px;
+    background-color: rgb(1, 43, 1);
+    border: solid 3px;
+    border-color: greenyellow;
+}
+
+.funcional h5{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.funcional p{
+    color: #ffffff;
+    margin: 5px;
+}
+
+.spinning{
+    grid-area: spinning;
+    margin: 5px;
+    background-color: rgb(1, 43, 1);
+    border: solid 3px;
+    border-color: greenyellow;
+}
+
+.spinning h5{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.spinning p{
+    color: #ffffff;
+    margin: 5px;
+}
+
+.preguntaLugar{
+    grid-area: preguntaLugar;
+    color: rgb(1, 43, 1);
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.descripcionLugar{
+    grid-area: descripcionLugar;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.lugar{
+    grid-area: lugar;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.textoClases{
+    grid-area: textoClases;
+    color: rgb(1, 43, 1);
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.fotoClases{
+    grid-area: fotoClases;
+    margin: 5px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(1, 43, 1);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.footer p{
+    font-size: 20px;
+    color: greenyellow;
+    align-self: center;
+}
+
+.footer ul{
+    margin: 15px;
+    font-size: 20px;
+    color: greenyellow;
+}
+
+.footer ul li{
+    font-size: 18px;
+    margin: 5px;
+    color: greenyellow;
+}
+
+.footer ul li a {
+    color: greenyellow;
+    text-decoration: none;
+}
