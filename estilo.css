@@ -9,13 +9,13 @@
     "encabezado encabezado encabezado encabezado"
     " body body body body"
     "footer footer footer footer";
-    grid-template-rows: 15vh auto 15vh;
-    grid-template-columns: 10vw 40vw 40vw 10vw;
+    grid-template-rows: 15vh auto 20vh;
+    grid-template-columns: 10vw 39.2vw 39.2vw 10vw;
 }
 
 .encabezado {
     grid-area: encabezado;
-    background-color: green;
+    background-color: rgb(1, 43, 1);
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
@@ -65,5 +65,32 @@ main{
 
 .footer {
     grid-area: footer;
-    background-color: green;
+    background-color: rgb(1, 43, 1);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.footer p{
+    font-size: 20px;
+    color: greenyellow;
+    align-self: center;
+}
+
+.footer ul{
+    margin: 15px;
+    font-size: 20px;
+    color: greenyellow;
+}
+
+.footer ul li{
+    font-size: 18px;
+    margin: 5px;
+    color: greenyellow;
+}
+
+.footer ul li a {
+    color: greenyellow;
+    text-decoration: none;
 }
