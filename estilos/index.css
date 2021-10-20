@@ -31,7 +31,7 @@
 
 .encabezado p {
     display: flex;
-    margin: 15px;
+    margin: 25px;
     font-size: 20px;
     color: greenyellow;
     width: 30vw;
@@ -52,7 +52,7 @@
 }
 
 .encabezado nav ul li {
-    margin: 15px;
+    margin: 25px;
     font-size: 20px;
     color: greenyellow;
 }
@@ -71,7 +71,8 @@
     color: rgb(1, 43, 1);
     display: flex;
     justify-content: center;
-    margin: 5px;
+    font-size: 60px;
+    margin: 25px;
 }
 
 .motivacion{
@@ -79,7 +80,8 @@
     color: rgb(1, 43, 1);
     display: flex;
     justify-content: center;
-    margin: 5px;
+    font-size: 40px;
+    margin: 15px;
 }
 
 .funcional{
@@ -90,8 +92,9 @@
     border-color: greenyellow;
 }
 
-.funcional h5{
+.funcional h4{
     margin: 5px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     color: #ffffff;
@@ -99,6 +102,7 @@
 
 .funcional p{
     color: #ffffff;
+    font-size: 18px;
     margin: 5px;
 }
 
@@ -110,8 +114,9 @@
     border-color: greenyellow;
 }
 
-.spinning h5{
+.spinning h4{
     margin: 5px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     color: #ffffff;
@@ -119,6 +124,7 @@
 
 .spinning p{
     color: #ffffff;
+    font-size: 18px;
     margin: 5px;
 }
 
@@ -127,7 +133,8 @@
     color: rgb(1, 43, 1);
     display: flex;
     justify-content: center;
-    margin: 5px;
+    margin: 15px;
+    font-size: 25px;
 }
 
 .descripcionLugar{
@@ -135,6 +142,7 @@
     display: flex;
     justify-content: center;
     margin: 5px;
+    font-size: 25px;
 }
 
 .lugar{
@@ -149,7 +157,8 @@
     color: rgb(1, 43, 1);
     display: flex;
     justify-content: center;
-    margin: 5px;
+    margin: 15px;
+    font-size: 25px;
 }
 
 .fotoClases{

@@ -1,4 +1,32 @@
 
+class user {
+    constructor (nombre, pass){
+        this.nombre = nombre
+        this.pass = pass
+    }
+}
+
+const admin = new user ("frusso", "leongym")
+
+const confirmarAcceso = () => {
+
+    let bucle = true
+
+    while(bucle) {
+        const nombre = prompt("Ingresa tu nombre de usuario")
+        const pass = prompt("Ingresa tu contraseña")
+        if(nombre === admin.nombre && pass === admin.pass){
+            bucle = false
+            break
+        }
+        else {
+            alert("Usuario o contraseña incorrectos")
+        }
+    }
+}
+
+confirmarAcceso()
+
 class Personas {
     constructor({nombre, numSocio}) {
         this.nombre = nombre;
@@ -6,7 +34,12 @@ class Personas {
     }
 }
 
-const listaDeSocios = []
+let listaDeSocios;
+if(localStorage.getItem("listaSocios") == null) {
+    listaDeSocios = []
+} else {
+    listaDeSocios = JSON.parse(localStorage.getItem("listaSocios"))
+}
 
 const crearSocio = () => {
 
@@ -14,7 +47,9 @@ const crearSocio = () => {
             nombre: document.getElementById("nombre").value,
             numSocio: document.getElementById("numeroSocio").value,
         })
-    return socio
+    
+        listaDeSocios.push(socio)
+        localStorage.setItem("listaSocios", JSON.stringify(listaDeSocios))
 
 }
 

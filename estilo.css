@@ -24,7 +24,7 @@
 
 .encabezado p {
     display: flex;
-    margin: 15px;
+    margin: 25px;
     font-size: 20px;
     color: greenyellow;
     width: 30vw;
@@ -45,7 +45,7 @@
 }
 
 .encabezado nav ul li {
-    margin: 15px;
+    margin: 25px;
     font-size: 20px;
     color: greenyellow;
 }

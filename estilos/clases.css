@@ -29,7 +29,7 @@
 
 .encabezado p {
     display: flex;
-    margin: 15px;
+    margin: 25px;
     font-size: 20px;
     color: greenyellow;
     width: 30vw;
@@ -50,7 +50,7 @@
 }
 
 .encabezado nav ul li {
-    margin: 15px;
+    margin: 25px;
     font-size: 20px;
     color: greenyellow;
 }
@@ -69,7 +69,8 @@
     color: rgb(1, 43, 1);
     display: flex;
     justify-content: center;
-    margin: 5px;
+    margin: 25px;
+    font-size: 40px;
 }
 
 .spinning1{
@@ -84,6 +85,7 @@
     display: flex;
     justify-content: center;
     color: #ffffff;
+    font-size: 25px;
 }
 
 .spinningl1 p{
@@ -104,6 +106,7 @@
     display: flex;
     justify-content: center;
     color: #ffffff;
+    font-size: 25px;
 }
 
 .spinning2 p{
@@ -117,7 +120,8 @@
     color: rgb(1, 43, 1);
     display: flex;
     justify-content: center;
-    margin: 5px;
+    margin: 25px;
+    font-size: 40px;
 }
 
 .funcional1{
@@ -132,6 +136,7 @@
     display: flex;
     justify-content: center;
     color: #ffffff;
+    font-size: 25px;
 }
 
 .funcional1 p{
@@ -152,6 +157,7 @@
     display: flex;
     justify-content: center;
     color: #ffffff;
+    font-size: 25px;
 }
 
 .funcional2 p{
@@ -165,7 +171,8 @@
     color: rgb(1, 43, 1);
     display: flex;
     justify-content: center;
-    margin: 5px;
+    margin: 15px;
+    font-size: 25px;
 }
 
 .fotoGrupos{
