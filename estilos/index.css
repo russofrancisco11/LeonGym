@@ -9,8 +9,8 @@
     "encabezado encabezado encabezado encabezado"
     " . imagen imagen . "
     " . titulo titulo . "
-    " . motivacion motivacion . "
-    " . funcional spinning . "
+    " . funcional imagenFuncional . "
+    " . imagenSpinning spinning . "
     " . preguntaLugar lugar . "
     " . descripcionLugar lugar . "
     " . textoClases textoClases . "
@@ -75,13 +75,8 @@
     margin: 25px;
 }
 
-.motivacion{
-    grid-area: motivacion;
-    color: rgb(1, 43, 1);
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
-    margin: 15px;
+.imagenFuncional{
+    grid-area: imagenFuncional;
 }
 
 .funcional{
@@ -104,6 +99,10 @@
     color: #ffffff;
     font-size: 18px;
     margin: 5px;
+}
+
+.imagenSpinning{
+    grid-area: imagenSpinning;
 }
 
 .spinning{

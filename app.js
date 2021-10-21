@@ -26,36 +26,6 @@ const confirmarAcceso = () => {
 }
 
 confirmarAcceso()
-
-class Personas {
-    constructor({nombre, numSocio}) {
-        this.nombre = nombre;
-        this.numSocio = numSocio;
-    }
-}
-
-let listaDeSocios;
-if(localStorage.getItem("listaSocios") == null) {
-    listaDeSocios = []
-} else {
-    listaDeSocios = JSON.parse(localStorage.getItem("listaSocios"))
-}
-
-const crearSocio = () => {
-
-    const socio = new Personas ({
-            nombre: document.getElementById("nombre").value,
-            numSocio: document.getElementById("numeroSocio").value,
-        })
-    
-        listaDeSocios.push(socio)
-        localStorage.setItem("listaSocios", JSON.stringify(listaDeSocios))
-
-}
-
-let boton = document.getElementsByTagName("button")
-boton.onclick = () => {crearSocio()}
-
 /*
 const nuevaLista = JSON.parse(localStorage.getItem("socios"))
 

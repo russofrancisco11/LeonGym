@@ -12,9 +12,10 @@
     " . spinning1 spinning2 . "
     " . textoFuncional textoFuncional . "
     " . funcional1 funcional2 . "
+    " . inscripcion inscripcion . "
     " . textoEspera fotoGrupos . "
     "footer footer footer footer";
-    grid-template-rows: 15vh auto auto auto auto auto auto 20vh;
+    grid-template-rows: 15vh auto auto auto auto auto auto auto 20vh;
     grid-template-columns: 10vw 39.4vw 39.3vw 10vw;
 }
 
@@ -86,12 +87,20 @@
     justify-content: center;
     color: #ffffff;
     font-size: 25px;
+    margin: 15px;
 }
 
-.spinningl1 p{
+.spinning1 ul{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     color: #ffffff;
+    margin: 25px;
+    font-size: 18px;
+}
+
+.spinning1 ul li{
+    margin: 7px;
 }
 
 .spinning2{
@@ -107,12 +116,20 @@
     justify-content: center;
     color: #ffffff;
     font-size: 25px;
+    margin: 15px;
 }
 
-.spinning2 p{
+.spinning2 ul{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     color: #ffffff;
+    margin: 25px;
+    font-size: 18px;
+}
+
+.spinning2 ul li{
+    margin: 7px;
 }
 
 .textoFuncional{
@@ -137,12 +154,20 @@
     justify-content: center;
     color: #ffffff;
     font-size: 25px;
+    margin: 15px;
 }
 
-.funcional1 p{
+.funcional1 ul{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     color: #ffffff;
+    margin: 25px;
+    font-size: 18px;
+}
+
+.funcional1 ul li{
+    margin: 7px;
 }
 
 .funcional2{
@@ -158,12 +183,24 @@
     justify-content: center;
     color: #ffffff;
     font-size: 25px;
+    margin: 15px;
 }
 
-.funcional2 p{
+.funcional2 ul{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     color: #ffffff;
+    margin: 25px;
+    font-size: 18px;
+}
+
+.funcional2 ul li{
+    margin: 7px;
+}
+
+.inscripcion{
+    grid-area: inscripcion;
 }
 
 .textoEspera{
