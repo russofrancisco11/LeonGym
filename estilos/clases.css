@@ -12,8 +12,8 @@
     " . spinning1 spinning2 . "
     " . textoFuncional textoFuncional . "
     " . funcional1 funcional2 . "
-    " . inscripcion inscripcion . "
-    " . textoEspera fotoGrupos . "
+    " . inscripcion fotoGrupos . "
+    " . textoEspera textoEspera . "
     "footer footer footer footer";
     grid-template-rows: 15vh auto auto auto auto auto auto auto 20vh;
     grid-template-columns: 10vw 39.4vw 39.3vw 10vw;
@@ -82,7 +82,7 @@
     border-color: greenyellow;
 }
 
-.spinning1 h4{
+.encabezadoClases{
     display: flex;
     justify-content: center;
     color: #ffffff;
@@ -90,7 +90,7 @@
     margin: 15px;
 }
 
-.spinning1 ul{
+.listaClases{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,7 +99,7 @@
     font-size: 18px;
 }
 
-.spinning1 ul li{
+.claseItem{
     margin: 7px;
 }
 
@@ -109,27 +109,6 @@
     background-color: rgb(1, 43, 1);
     border: solid 3px;
     border-color: greenyellow;
-}
-
-.spinning2 h4{
-    display: flex;
-    justify-content: center;
-    color: #ffffff;
-    font-size: 25px;
-    margin: 15px;
-}
-
-.spinning2 ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #ffffff;
-    margin: 25px;
-    font-size: 18px;
-}
-
-.spinning2 ul li{
-    margin: 7px;
 }
 
 .textoFuncional{
@@ -149,27 +128,6 @@
     border-color: greenyellow;
 }
 
-.funcional1 h4{
-    display: flex;
-    justify-content: center;
-    color: #ffffff;
-    font-size: 25px;
-    margin: 15px;
-}
-
-.funcional1 ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #ffffff;
-    margin: 25px;
-    font-size: 18px;
-}
-
-.funcional1 ul li{
-    margin: 7px;
-}
-
 .funcional2{
     grid-area: funcional2;
     margin: 5px;
@@ -178,29 +136,15 @@
     border-color: greenyellow;
 }
 
-.funcional2 h4{
-    display: flex;
-    justify-content: center;
-    color: #ffffff;
-    font-size: 25px;
-    margin: 15px;
-}
-
-.funcional2 ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #ffffff;
-    margin: 25px;
-    font-size: 18px;
-}
-
-.funcional2 ul li{
-    margin: 7px;
-}
-
 .inscripcion{
     grid-area: inscripcion;
+    margin: 5px;
+    border: solid 5px;
+    border-color: greenyellow;
+}
+
+.divForm{
+    margin: 10px;
 }
 
 .textoEspera{

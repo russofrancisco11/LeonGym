@@ -23,76 +23,88 @@
         </picture>
         <h2 class="textoSpinning">Spinning</h2>
         <div class="spinning1">
-            <h4>3 clases a la semana</h4>
-            <ul>
-                <li>Lunes - Miércoles - Viernes o Martes - Jueves - Sábados</li>
-                <li>Amplia variedad de horarios disponibles - Desde 7:30 am hasta 21:30</li>
-                <li>Profesor partícular para cada grupo</li>
+            <h4 class="encabezadoClases">3 clases a la semana</h4>
+            <ul class="listaClases">
+                <li class="claseItem">Lunes - Miércoles - Viernes o Martes - Jueves - Sábados</li>
+                <li class="claseItem">Amplia variedad de horarios disponibles - Desde 7:30 am hasta 21:30</li>
+                <li class="claseItem">Profesor partícular para cada grupo</li>
             </ul>
         </div>
         <div class="spinning2">
-            <h4>2 clases a la semana</h4>
-            <ul>
-                <li>Lunes y Miércoles o Martes y Jueves</li>
-                <li>Amplia variedad de horarios disponibles - Desde 7:30 am hasta 21:30</li>
-                <li>Profesor partícular para cada grupo</li>
+            <h4 class="encabezadoClases">2 clases a la semana</h4>
+            <ul class="listaClases">
+                <li class="claseItem">Lunes y Miércoles o Martes y Jueves</li>
+                <li class="claseItem">Amplia variedad de horarios disponibles - Desde 7:30 am hasta 21:30</li>
+                <li class="claseItem">Profesor partícular para cada grupo</li>
             </ul>
         </div>
         <h2 class="textoFuncional">Funcional</h2>
         <div class="funcional1">
-            <h4>3 clases a la semana</h4>
-            <ul>
-                <li>Lunes - Miércoles - Viernes o Martes - Jueves - Sábados</li>
-                <li>Amplia variedad de horarios disponibles - Desde 7:30 am hasta 21:30</li>
-                <li>Profesor partícular para cada grupo</li>
+            <h4 class="encabezadoClases">3 clases a la semana</h4>
+            <ul class="listaClases">
+                <li class="claseItem">Lunes - Miércoles - Viernes o Martes - Jueves - Sábados</li>
+                <li class="claseItem">Amplia variedad de horarios disponibles - Desde 7:30 am hasta 21:30</li>
+                <li class="claseItem">Profesor partícular para cada grupo</li>
             </ul>
         </div>
         <div class="funcional2">
-            <h4>2 clases a la semana</h4>
-            <ul>
-                <li>Lunes y Miércoles o Martes y Jueves</li>
-                <li>Amplia variedad de horarios disponibles - Desde 7:30 am hasta 21:30</li>
-                <li>Profesor partícular para cada grupo</li>
+            <h4 class="encabezadoClases">2 clases a la semana</h4>
+            <ul class="listaClases">
+                <li class="claseItem">Lunes y Miércoles o Martes y Jueves</li>
+                <li class="claseItem">Amplia variedad de horarios disponibles - Desde 7:30 am hasta 21:30</li>
+                <li class="claseItem">Profesor partícular para cada grupo</li>
             </ul>
         </div>
         <form action="" class="inscripcion">
-            <label for="nombre">Nombre del Socio: </label>
-            <input type="text" id="nombre" name="Nombre del socio">
-            <label for="Clase">Clase: </label>
-            <select name="Clase" id="clase">
-                <option value="Funcional">Funcional</option>
-                <option value="Spinning">Spinning</option>
+            <div class="divForm">
+                <label for="nombre">Nombre del Socio: </label>
+                <input type="text" id="nombre" name="Nombre del socio">
+            </div>
+            <div class="divForm">
+                <label for="Clase">Clase: </label>
+                <select name="Clase" id="clase">
+                    <option value="Funcional">Funcional</option>
+                    <option value="Spinning">Spinning</option>
             </select>
-            <label for="cantDias">Cantidad de días: </label>
-            <select name="cantDias" id="cantDias">
-                <option value="3">3</option>
-                <option value="2">2</option>
-            </select>
-            <label for="Dias a la semana">Días a la semana: </label>
-            <select name="Dias a la semana" id="diasSemana">
-                <optgroup>-3 días a la semana-
-                    <option value="Lunes,Miércoles y Viernes">Lunes, Miércoles y Viernes</option>
-                    <option value="Martes, Jueves y Sábados">Martes, Jueves y Sábados</option>
-                </optgroup>
-                <optgroup>-2 días a la semana-
-                    <option value="Lunes y Miércoles">Lunes y Miércoles</option>
-                    <option value="Martes y Jueves">Martes y Jueves</option>
-                </optgroup>
-            </select>
-            <label for="Horario">Horario: </label>
-            <select name="Horario" id="horario">
-                <option value="Lunes y Miércoles">7:30 a 8:30</option>
-                <option value="8:30 a 9:30">8:30 a 9:30</option>
-                <option value="9:30 a 10:30">9:30 a 10:30</option>
-                <option value="10:30 a 11:30">10:30 a 11:30</option>
-                <option value="11:30 a 12:30">11:30 a 12:30</option>
-                <option value="17:30 a 18:30">17:30 a 18:30</option>
-                <option value="Lunes y Miércoles">18:30 a 19:30</option>
-                <option value="Martes y Jueves">19:30 a 20:30</option>
-                <option value="Lunes y Miércoles">20:30 a 21:30</option>
-                <option value="Martes y Jueves">21:30 a 22:30</option>
-            </select>
-            <button id="button">Enviar</button>
+            </div>
+            <div class="divForm">
+                <label for="cantDias">Cantidad de días: </label>
+                <select name="cantDias" id="cantDias">
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                </select>
+            </div>
+            <div class="divForm">
+                <label for="Dias a la semana">Días a la semana: </label>
+                <select name="Dias a la semana" id="diasSemana">
+                    <optgroup>-3 días a la semana-
+                        <option value="Lunes,Miércoles y Viernes">Lunes, Miércoles y Viernes</option>
+                        <option value="Martes, Jueves y Sábados">Martes, Jueves y Sábados</option>
+                    </optgroup>
+                    <optgroup>-2 días a la semana-
+                        <option value="Lunes y Miércoles">Lunes y Miércoles</option>
+                        <option value="Martes y Jueves">Martes y Jueves</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="divForm">
+                <label for="Horario">Horario: </label>
+                <select name="Horario" id="horario">
+                    <option value="Lunes y Miércoles">7:30 a 8:30</option>
+                    <option value="8:30 a 9:30">8:30 a 9:30</option>
+                    <option value="9:30 a 10:30">9:30 a 10:30</option>
+                    <option value="10:30 a 11:30">10:30 a 11:30</option>
+                    <option value="11:30 a 12:30">11:30 a 12:30</option>
+                    <option value="17:30 a 18:30">17:30 a 18:30</option>
+                    <option value="Lunes y Miércoles">18:30 a 19:30</option>
+                    <option value="Martes y Jueves">19:30 a 20:30</option>
+                    <option value="Lunes y Miércoles">20:30 a 21:30</option>
+                    <option value="Martes y Jueves">21:30 a 22:30</option>
+                </select>
+            </div>
+            <div class="divForm">
+                <button id="button">Enviar</button>
+            </div>
         </form>
         <h3 class="textoEspera">Nuestros grupos de trabajo te esperan!</h3>
         <picture class="fotoGrupos">
