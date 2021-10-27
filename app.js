@@ -26,6 +26,24 @@ const confirmarAcceso = () => {
 }
 
 confirmarAcceso()
+
+$("button")
+
+$("#button").on("click", (e) => {
+    e.preventDefault()
+    localStorage.getItem("listaInscriptos", JSON.parse(listaInscriptos))
+    for (const socio of listaInscriptos){
+        $("divInscriptos").append(
+            `<div>
+            <h4>Socio: ${socio.nombre}</h4>
+            <p>Clase: ${socio.clase}</p>
+            <p>Cantidad de días: ${socio.cantDias}</p>
+            <p>Días a la semana: ${socio.diasSemana}</p>
+            <p>Horario: ${socio.horario}</p>`
+        )
+    }
+})
+    
 /*
 const nuevaLista = JSON.parse(localStorage.getItem("socios"))
 
