@@ -39,7 +39,8 @@ $("#button").on("click", (e) => {
             <p>Clase: ${socio.clase}</p>
             <p>Cantidad de días: ${socio.cantDias}</p>
             <p>Días a la semana: ${socio.diasSemana}</p>
-            <p>Horario: ${socio.horario}</p>`
+            <p>Horario: ${socio.horario}</p>
+            </div>`
         )
     }
 })

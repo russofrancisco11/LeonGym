@@ -31,5 +31,12 @@ const crearSocio = () => {
 
 }
 
-let boton = document.getElementById("button")
-boton.onclick = () => {crearSocio()}
+let boton = document.getElementById("boton")
+boton.onclick = () => {
+    crearSocio()
+}
+
+//Falta: 
+//1) Armar la estructura para que, dependiendo los dias que uno elija, aparezcan las opciones de 3 o 2 dias
+//2) Armar el efecto de agrande de las cosas cuando uno hace hover por encima
+//3)Armar la verificacion de los datos que ingresan en el formulario (principalmente el nombre)

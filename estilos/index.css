@@ -138,6 +138,7 @@
 
 .descripcionLugar{
     grid-area: descripcionLugar;
+    color: rgb(1, 43, 1);
     display: flex;
     justify-content: center;
     margin: 5px;
