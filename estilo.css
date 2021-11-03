@@ -7,7 +7,7 @@
     display: grid;
     grid-template-areas: 
     "encabezado encabezado encabezado encabezado"
-    " body body body body"
+    " body body body horario"
     " divInscriptos divInscriptos . . "
     "footer footer footer footer";
     grid-template-rows: 15vh auto 20vh;
@@ -71,6 +71,13 @@ h2{
 }
 
 form{
+    margin: 10px;
+}
+
+#horario{
+    grid-area: horario;
+    font-size: 20px;
+    color: rgb(1, 43, 1);
     margin: 10px;
 }
 

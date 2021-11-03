@@ -8,6 +8,8 @@ class user {
 
 const admin = new user ("frusso", "leongym")
 
+const url = "http://api.timezonedb.com/v2.1/get-time-zone?key=LKOOFOCV3G2Y&format=json&by=zone&zone=America/Argentina/Buenos_Aires"
+
 const confirmarAcceso = () => {
 
     let bucle = true
@@ -31,9 +33,9 @@ $("button")
 
 $("#button").on("click", (e) => {
     e.preventDefault()
-    localStorage.getItem("listaInscriptos", JSON.parse(listaInscriptos))
-    for (const socio of listaInscriptos){
-        $("divInscriptos").append(
+    listaInscriptos = JSON.parse(localStorage.getItem("listaInscriptos"))
+    listaInscriptos.forEach(socio => {
+        $("#divInscriptos").append(
             `<div>
             <h4>Socio: ${socio.nombre}</h4>
             <p>Clase: ${socio.clase}</p>
@@ -42,9 +44,20 @@ $("#button").on("click", (e) => {
             <p>Horario: ${socio.horario}</p>
             </div>`
         )
+    });
+})
+
+$.get(url, (data, est) => {
+    if (est == "success"){
+        $("#horario").append(
+            `<div>
+            <p>${data.formatted}<p>
+            </div>
+            `
+        )
     }
 })
-    
+
 /*
 const nuevaLista = JSON.parse(localStorage.getItem("socios"))
 
