@@ -77,6 +77,9 @@
 
 .imagenFuncional{
     grid-area: imagenFuncional;
+    max-width: 39.3vw;
+    display: flex;
+    justify-content: center;
 }
 
 .funcional{
@@ -88,7 +91,7 @@
 }
 
 .funcional h4{
-    margin: 5px;
+    margin: 10px;
     font-size: 25px;
     display: flex;
     justify-content: center;
@@ -103,6 +106,9 @@
 
 .imagenSpinning{
     grid-area: imagenSpinning;
+    max-width: 39.4vw;
+    display: flex;
+    justify-content: center;
 }
 
 .spinning{
@@ -114,7 +120,7 @@
 }
 
 .spinning h4{
-    margin: 5px;
+    margin: 10px;
     font-size: 25px;
     display: flex;
     justify-content: center;
@@ -132,7 +138,7 @@
     color: rgb(1, 43, 1);
     display: flex;
     justify-content: center;
-    margin: 15px;
+    margin: 25px;
     font-size: 25px;
 }
 
@@ -149,6 +155,8 @@
     grid-area: lugar;
     display: flex;
     justify-content: center;
+    width: 38.5vw;
+    height: 35vh;
     margin: 5px;
 }
 
