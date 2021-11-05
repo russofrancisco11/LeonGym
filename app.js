@@ -59,14 +59,6 @@ $.get(url, (data, est) => {
 })
 
 /*
-const nuevaLista = JSON.parse(localStorage.getItem("socios"))
-
-    nuevaLista.push(socio)
-
-    localStorage.setItem("socios", JSON.stringify(nuevaLista))
-*/
-
-/*
 elegirActividad(numSocio) {
         let act = prompt("Que querés realizar hoy? Zumba, funcional, gap, crossfit, musculación o kinesiología?");
             if (this.numSocio > 10000 && this.numSocio <= 20000) {
