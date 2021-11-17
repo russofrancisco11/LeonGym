@@ -29,8 +29,6 @@ const confirmarAcceso = () => {
 
 confirmarAcceso()
 
-$("button")
-
 $("#button").on("click", (e) => {
     e.preventDefault()
     listaInscriptos = JSON.parse(localStorage.getItem("listaInscriptos"))
