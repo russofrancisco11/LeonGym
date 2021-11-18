@@ -28,6 +28,8 @@ const crearSocio = () => {
     
         listaInscriptos.push(socio)
         localStorage.setItem("listaInscriptos", JSON.stringify(listaInscriptos))
+    
+    alert("Gracias por inscribirte!")
 
 }
 
@@ -37,5 +39,5 @@ boton.onclick = () => {
 }
 
 //Falta:
-//2) Armar el efecto de agrande de las cosas cuando uno hace hover por encima
+//2) Armar el efecto de agrande de las cosas cuando uno hace hover por encima (NO ME SALEEEEEEEEE)
 //3)Armar la verificacion de los datos que ingresan en el formulario (principalmente el nombre)

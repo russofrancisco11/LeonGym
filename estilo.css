@@ -10,7 +10,7 @@
     " body body body horario"
     " divInscriptos divInscriptos . . "
     "footer footer footer footer";
-    grid-template-rows: 15vh auto 20vh;
+    grid-template-rows: 15vh auto auto 20vh;
     grid-template-columns: 25vw 24.8vw 24.8vw 25vw;
 }
 

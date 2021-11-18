@@ -1,4 +1,7 @@
 
+
+//Corregir botón de lista inscriptos, que no la carga por que cagué algo con lo que borré
+
 class user {
     constructor (nombre, pass){
         this.nombre = nombre
@@ -28,6 +31,8 @@ const confirmarAcceso = () => {
 }
 
 confirmarAcceso()
+
+$("button")
 
 $("#button").on("click", (e) => {
     e.preventDefault()
