@@ -33,7 +33,7 @@
     display: flex;
     margin: 25px;
     font-size: 20px;
-    color: greenyellow;
+    color: #fefb3f;
     width: 30vw;
 }
 
@@ -54,11 +54,11 @@
 .encabezado nav ul li {
     margin: 25px;
     font-size: 20px;
-    color: greenyellow;
+    color: #fefb3f;
 }
 
 .encabezado nav ul li a {
-    color: greenyellow;
+    color: #fefb3f;
     text-decoration: none;
 }
 
@@ -87,7 +87,7 @@
     margin: 5px;
     background-color: rgb(1, 43, 1);
     border: solid 3px;
-    border-color: greenyellow;
+    border-color: #fefb3f;
 }
 
 .funcional h4{
@@ -116,7 +116,7 @@
     margin: 5px;
     background-color: rgb(1, 43, 1);
     border: solid 3px;
-    border-color: greenyellow;
+    border-color: #fefb3f;
 }
 
 .spinning h4{
@@ -185,23 +185,23 @@
 
 .footer p{
     font-size: 20px;
-    color: greenyellow;
+    color: #fefb3f;
     align-self: center;
 }
 
 .footer ul{
     margin: 15px;
     font-size: 20px;
-    color: greenyellow;
+    color: #fefb3f;
 }
 
 .footer ul li{
     font-size: 18px;
     margin: 5px;
-    color: greenyellow;
+    color: #fefb3f;
 }
 
 .footer ul li a {
-    color: greenyellow;
+    color: #fefb3f;
     text-decoration: none;
 }

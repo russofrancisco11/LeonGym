@@ -27,7 +27,7 @@
     display: flex;
     margin: 25px;
     font-size: 20px;
-    color: greenyellow;
+    color: #fefb3f;
     width: 30vw;
 }
 
@@ -48,11 +48,11 @@
 .encabezado nav ul li {
     margin: 25px;
     font-size: 20px;
-    color: greenyellow;
+    color: #fefb3f;
 }
 
 .encabezado nav ul li a {
-    color: greenyellow;
+    color: #fefb3f;
     text-decoration: none;
 }
 
@@ -96,23 +96,23 @@ form{
 
 .footer p{
     font-size: 20px;
-    color: greenyellow;
+    color: #fefb3f;
     align-self: center;
 }
 
 .footer ul{
     margin: 15px;
     font-size: 20px;
-    color: greenyellow;
+    color: #fefb3f;
 }
 
 .footer ul li{
     font-size: 18px;
     margin: 5px;
-    color: greenyellow;
+    color: #fefb3f;
 }
 
 .footer ul li a {
-    color: greenyellow;
+    color: #fefb3f;
     text-decoration: none;
 }
