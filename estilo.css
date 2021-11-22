@@ -91,10 +91,8 @@ form{
     align-content: center;
 }
 
-.footer p{
-    font-size: 20px;
-    color: #fefb3f;
-    align-self: center;
+.footer picture img {
+    height: 18vh;
 }
 
 .footer ul{
