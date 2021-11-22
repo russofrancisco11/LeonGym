@@ -87,7 +87,6 @@ form{
     grid-area: footer;
     background-color: rgb(1, 43, 1);
     display: flex;
-    flex-flow: wrap;
     justify-content: space-around;
     align-content: center;
 }
@@ -103,8 +102,8 @@ form{
 }
 
 .footer ul li{
-    font-size: 18px;
-    margin: 5px;
+    font-size: 16px;
+    margin: 3px;
     color: #fefb3f;
 }
 

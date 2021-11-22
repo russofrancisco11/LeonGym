@@ -13,7 +13,7 @@
     " . textoFuncional textoFuncional . "
     " . funcional1 funcional2 . "
     " . inscripcion fotoGrupos . "
-    " . textoEspera textoEspera . "
+    " . textoEspera fotoGrupos . "
     "footer footer footer footer";
     grid-template-rows: 15vh auto auto auto auto auto auto auto 20vh;
     grid-template-columns: 10vw 39.4vw 39.3vw 10vw;
@@ -162,7 +162,6 @@
     grid-area: footer;
     background-color: rgb(1, 43, 1);
     display: flex;
-    flex-flow: wrap;
     justify-content: space-around;
     align-content: center;
 }
@@ -178,8 +177,8 @@
 }
 
 .footer ul li{
-    font-size: 18px;
-    margin: 5px;
+    font-size: 16px;
+    margin: 3px;
     color: #fefb3f;
 }
 

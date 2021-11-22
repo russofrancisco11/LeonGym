@@ -37,6 +37,3 @@ let boton = document.getElementById("boton")
 boton.onclick = () => {
     crearSocio()
 }
-
-//Falta:
-//3)Armar la verificacion de los datos que ingresan en el formulario (principalmente el nombre)

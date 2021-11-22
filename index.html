@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos/index.css">
     <title>León Gym</title>
 </head>
@@ -21,7 +22,7 @@
             </nav>
         </header>
         <picture class="imagen">
-            <img src="" alt="imagenGym">
+            <img src="imagenes/imginicio.jpeg" alt="imagenGym">
         </picture>
         <h1 class="titulo">Concentrate y superate!</h1>
         <picture class="imagenFuncional">
@@ -29,22 +30,56 @@
         </picture>
         <div class="funcional">
             <h4>Funcional</h4>
-            <p>Acá va la sarasa de como el funcional es beneficioso para la salud de una persona</p>
+            <p>El entrenamiento funcional ayuda al cuerpo, mediante la simulación de actividades cotidianas que mejoran en el equilibrio, la coordinación, agilidad y resistencia, mientras nos ayuda a perder grasa y tonificarnos.</p>
+            <ul>
+                <li>Ayuda a quemar grasa corporal</li>
+                <li>Mejora la postura del cuerpo y la estabilidad</li>
+                <li>Evita lesiones</li>
+                <li>Gran complemento deportivo</li>
+            </ul>
+            <p>Además, es una gran actividad para desarrollarse socialmente, con grupos de trabajo que comparten metas y métodos para alcanzarlas.</p>
         </div>
         <picture class="imagenSpinning">
             <img src="imagenes/spinning.png" alt="imagenSpinning">
         </picture>
         <div class="spinning">
             <h4>Spinning</h4>
-            <p>Acá va la sarasa de como el spinning es beneficioso para la salud de una persona</p>
+            <p>El spinning es una de las prácticas deportivas actuales que más beneficios aporta a la salud. Con ayuda de un gran instructor y los mejore temas vas a poder lograr el mejor resultado.</p>
+            <ul>
+                <li>Sin riesgo de lesiones</li>
+                <li>Ayuda a combatir el estrés</li>
+                <li>Tonifica tu cuerpo</li>
+                <li>Quema calorías y ayuda a adelgazar</li>
+                <li>Mejora la salud cardiovascular</li>
+                <li>Sube el autoestima</li>
+            </ul>
+            <p>Además, el realizar la actividad jutno con un grupo de gente y tu instructor te permite superar los obstáculos que vayas enfrentando a lo largo de las clases.</p>
         </div>
         <p class="preguntaLugar"><strong>Dónde nos encontramos?</strong></p>
         <p class="descripcionLugar"><strong>20 de Septiembre 322, José Mármol</strong></p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.957954066087!2d-58.372852985046194!3d-34.781833774450604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32cd2c40d56f7%3A0xafdd7e01db0c0420!2s20%20de%20Septiembre%20322%2C%20B1845BBG%20Jos%C3%A9%20Marmol%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1636032837457!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" class="lugar"></iframe>
         <h3 class="textoClases">Algunas de nuestras clases</h3>
-        <picture class="fotoClases">
-            <img src="" alt="fotosClases">
-        </picture>
+        <div class="fotoClases">
+            <div id="carouselclases" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="imagenes/clase1.jpeg" class="d-block h-100" alt="clase1">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <img src="imagenes/clase2.jpeg" class="d-block h-100" alt="clase2">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <img src="imagenes/clase3.jpeg" class="d-block h-100" alt="clase3">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <img src="imagenes/clase4.jpeg" class="d-block h-100" alt="clase4">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <img src="imagenes/clase5.jpeg" class="d-block h-100" alt="clase5">
+                  </div>
+                </div>
+              </div>
+        </div>
         <footer class="footer">
             <div>
                 <ul>Contacto:
@@ -65,7 +100,7 @@
             </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/index.js"></script>
 </body>
 </html>
