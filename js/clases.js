@@ -39,5 +39,4 @@ boton.onclick = () => {
 }
 
 //Falta:
-//2) Armar el efecto de agrande de las cosas cuando uno hace hover por encima (NO ME SALEEEEEEEEE)
 //3)Armar la verificacion de los datos que ingresan en el formulario (principalmente el nombre)

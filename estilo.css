@@ -23,18 +23,15 @@
     align-content: center;
 }
 
-.encabezado p {
-    display: flex;
-    margin: 25px;
-    font-size: 20px;
-    color: #fefb3f;
-    width: 30vw;
+.encabezado picture img {
+    height: 15vh;
 }
 
 .encabezado nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    align-content: center;
     width: 60vw;
 }
 
