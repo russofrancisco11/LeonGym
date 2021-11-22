@@ -10,7 +10,7 @@
     " body body body horario"
     " divInscriptos divInscriptos . . "
     "footer footer footer footer";
-    grid-template-rows: 15vh auto auto 20vh;
+    grid-template-rows: 15vh auto 80vh 20vh;
     grid-template-columns: 25vw 24.8vw 24.8vw 25vw;
 }
 
@@ -19,7 +19,7 @@
     background-color: rgb(1, 43, 1);
     display: flex;
     flex-flow: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
 }
 
@@ -80,6 +80,7 @@ form{
 
 #divInscriptos{
     grid-area: divInscriptos;
+    margin: 15px;
 }
 
 .footer {

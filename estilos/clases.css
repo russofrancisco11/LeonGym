@@ -24,7 +24,7 @@
     background-color: rgb(1, 43, 1);
     display: flex;
     flex-flow: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
 }
 
