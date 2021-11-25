@@ -219,3 +219,26 @@
     color: #fefb3f;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+    .grilla{
+        display: grid;
+        grid-template-areas: 
+        "encabezado encabezado encabezado"
+        " . imagen . "
+        " . titulo . "
+        " . funcional . "
+        " . imagenFuncional . "
+        " . spinning . "
+        " . imagenSpinning . "
+        " . preguntaLugar . "
+        " . lugar . "
+        " . descripcionLugar . "
+        " . textoClases . "
+        " . fotoClases . "
+        "footer footer footer";
+        grid-template-rows: 15vh auto auto auto auto auto auto auto auto auto auto auto 20vh;
+        grid-template-columns: 10vw 79.7vw 10vw;
+    }
+}
+
